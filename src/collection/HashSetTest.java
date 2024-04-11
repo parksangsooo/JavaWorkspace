@@ -19,7 +19,10 @@ public class HashSetTest {
 
         System.out.println(set);*/
 
-        TreeSet<Student> set = new TreeSet<Student>();      // Tree가 들어간 클래스의 특징은 "정렬이 되는 기준을 주어야함."
+        TreeSet<Student> set = new TreeSet<Student>();
+        // Tree가 들어간 클래스의 특징은 "정렬이 되는 기준을 주어야함."
+        // Student class compareTo 참고
+
         set.add(new Student("Kim",1001));
         set.add(new Student("Lee",1002));
         set.add(new Student("Park",1003));
